@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="194.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.AlunoController">
+   <children>
+      <TextField fx:id="txtNome" layoutX="32.0" layoutY="72.0" />
+      <Label layoutX="32.0" layoutY="43.0" text="Nome do Aluno" />
+      <JFXButton layoutX="195.0" layoutY="142.0" onAction="#cadastrarAluno" text="Cadastrar" />
+      <JFXButton fx:id="btnFechar" layoutX="128.0" layoutY="142.0" onAction="#cancelarCadastroAluno" text="Fechar" />
+   </children>
+</AnchorPane>
